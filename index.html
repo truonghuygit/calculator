@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <p class="mutual-p">Bill total</p>
+      <div class="mutual">
+        <span class="span span1">$</span>
+        <input id="billTotalInput" type="text" placeholder="0.00"/>
+      </div>
+
+      <p class="mutual-p">Tip</p>
+      <div class="mutual">
+        <span class="span span2">%</span>
+        <input id="tipTotalInput" type="text" placeholder="10"/>
+    </div>
+
+    <div class="footer">
+      <div class="footerLeft">
+        <p class="mutual-p">People</p>
+        <div class="totalPeople">
+        </div>
+        <button class="increase">+</button>
+        <span class="numberOfPeople">1</span>
+        <button class="decrease">-</button>
+      </div>
+
+      <div class="totalBill">
+        <div class="test"> 
+          <p class="mutual-p">Total per person</p>
+          <p class="personPay">$0.00</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
